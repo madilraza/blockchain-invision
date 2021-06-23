@@ -69,14 +69,14 @@ function Home() {
             Professional Services
           </h1>
           <div className="row mt-5 ">
-            <div className="col-3">
+            <div className="col-6 col-md-3">
               <h5 className="text-orange2 text-center">
                 Investment Advisor Services
               </h5>
               <br />
               <p>FA，Exchange listing, China Investment VCs Tour.</p>
             </div>
-            <div className="col-3">
+            <div className="col-6 col-md-3">
               <h5 className="text-orange2 text-center">
                 Brand, Marketing & PR
               </h5>
@@ -87,7 +87,7 @@ function Home() {
                 well-known KOL and so on.
               </p>
             </div>
-            <div className="col-3">
+            <div className="col-6 col-md-3">
               <h5 className="text-orange2 text-center">Community Building</h5>
               <br />
               <p>
@@ -95,7 +95,7 @@ function Home() {
                 community building and management.
               </p>
             </div>
-            <div className="col-3">
+            <div className="col-6 col-md-3">
               <h5 className="text-orange2 text-center">Meet-up</h5>
               <br />
               <p>
@@ -123,8 +123,8 @@ function Home() {
             Investment Advisor Services
           </h2>
           <div className="row mt-5 ">
-            <div className="col-2"></div>
-            <div className="col-8">
+            <div className="col-2 d-none d-md-flex"></div>
+            <div className="col-12 col-md-8">
               <p>
                 To offer premium investment advisor services to the excellent
                 project, Including but not limited to connecting to the
@@ -136,7 +136,7 @@ function Home() {
                 Tour.
               </p>
             </div>
-            <div className="col-2"></div>
+            <div className="col-2 d-none d-md-flex"></div>
           </div>
           <div className="row">
             <h1>carousel here</h1>
@@ -146,7 +146,7 @@ function Home() {
       <div className="home__services">
         <div className="container py-5">
           <div className="row">
-            <div className="col-5">
+            <div className="col-12 col-md-5">
               <h2 className="text-orange2 text-center pt-5 pb-5">
                 Brand、Marketing & PR
               </h2>
@@ -165,8 +165,8 @@ function Home() {
                 effectively and efficiently.
               </p>
             </div>
-            <div className="col-2"></div>
-            <div className="col-5">
+            <div className="col-2 d-none d-md-flex"></div>
+            <div className="col-12 col-md-5">
               <h2 className="text-orange2 text-center pt-5 pb-5">
                 Community Building
               </h2>
@@ -195,7 +195,7 @@ function Home() {
         <div className="container py-5">
           <h2 className="text-orange2 text-center pt-5 pb-5">Meetup</h2>
           <div className="row">
-            <div className="col-5">
+            <div className="col-12 col-md-5">
               <p style={{ lineHeight: "35px" }}>
                 Vision Labs owns a meet-up execution team of almost 100 people,
                 standing out in the industry. The team has served Huobi.pro
@@ -206,12 +206,13 @@ function Home() {
                 reliable meet-up execution.
               </p>
             </div>
-            <div className="col-2"></div>
-            <div className="col-5">
+            <div className="col-2 d-none d-md-flex"></div>
+            <div className="col-12 col-md-5">
               <img
                 src="assets/images/meetup.png"
                 alt=""
                 className="img-fluid"
+                width="100%"
               />
             </div>
           </div>
@@ -568,7 +569,7 @@ function Home() {
           </h2>
           <br />
           <div className="row">
-            <div className="col-3 d-flex flex-column justify-content-center align-items-center">
+            <div className="col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
               <img
                 className="img-fluid"
                 src="assets/images/meetup.png"
@@ -580,7 +581,7 @@ function Home() {
               <br />
               <p>Co-founder</p>
             </div>
-            <div className="col-3 d-flex flex-column justify-content-center align-items-center">
+            <div className="col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
               <img
                 className="img-fluid"
                 src="assets/images/meetup.png"
@@ -592,7 +593,7 @@ function Home() {
               <br />
               <p>Co-founder</p>
             </div>
-            <div className="col-3 d-flex flex-column justify-content-center align-items-center">
+            <div className="col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
               <img
                 className="img-fluid"
                 src="assets/images/meetup.png"
@@ -604,7 +605,7 @@ function Home() {
               <br />
               <p>Co-founder</p>
             </div>
-            <div className="col-3 d-flex flex-column justify-content-center align-items-center">
+            <div className="col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
               <img
                 className="img-fluid"
                 src="assets/images/meetup.png"
@@ -651,22 +652,26 @@ function Home() {
           </div>
           <div className="row">
             <div className="col-12 row fs-5 my-3">
-              <div className="col-4 d-flex justify-content-end">
+              <div className="col-12 col-md-4 d-flex justify-content-md-end">
                 Official Website:
               </div>
-              <div className="col-8 text-underline d-flex  justify-content-start ps-4">
+              <div className="col-12 col-md-8 text-underline d-flex  justify-content-md-start ps-4">
                 http://www.blockchainvisionlabs.com
               </div>
             </div>
             <div className="col-12 row fs-5 my-3">
-              <div className="col-4 d-flex justify-content-end">Email: </div>
-              <div className="col-8 text-underline d-flex  justify-content-start ps-4">
+              <div className="col-12 col-md-4 d-flex justify-content-md-end">
+                Email:
+              </div>
+              <div className="col-12 col-md-8 text-underline d-flex  justify-content-md-start ps-4">
                 info@blockchainvisionlabs.com
               </div>
             </div>
             <div className="col-12 row fs-5 my-3">
-              <div className="col-4 d-flex justify-content-end">Address: </div>
-              <div className="col-8 text-underline d-flex  justify-content-start ps-4">
+              <div className="col-12 col-md-4 d-flex justify-content-md-end">
+                Address:
+              </div>
+              <div className="col-12 col-md-8 text-underline d-flex  justify-content-md-start ps-4">
                 7th Floor, Jingpin, No. 68, Yuyuan Road, Jing'an District,
                 Shanghai
               </div>
