@@ -1,6 +1,9 @@
 import React from "react";
 import "./style.css";
 import Header from "../../components/Header";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 
 function Home() {
   return (
@@ -22,9 +25,21 @@ function Home() {
       </div>
       <div className="home__about">
         <div className="container py-5">
-          <h1 className="text-orange fw-normal">About us</h1>
           <div className="row">
-            <div className="col-7">
+            <div className="col-6 col-md-12">
+              <h1 className="text-orange fw-normal">About us</h1>
+            </div>
+            <div className="col-6 d-flex justify-content-end">
+              <img
+                src="assets/images/logo.png"
+                className="img-fluid"
+                alt=""
+                style={{ width: "80px", opacity: 0.3 }}
+              />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12 col-md-7">
               <br />
               <p>
                 Vision Labs is a leading investment advisor & marketing firm in
@@ -52,7 +67,7 @@ function Home() {
                 investment institutions and exchanges.
               </p>
             </div>
-            <div className="col-5 d-flex justify-content-center align-items-start">
+            <div className="col-5 d-none d-md-flex justify-content-center align-items-start">
               <img
                 src="assets/images/logo.png"
                 alt=""
@@ -112,7 +127,7 @@ function Home() {
               src="assets/images/logo.png"
               className="img-fluid"
               alt=""
-              style={{ width: "80px" }}
+              style={{ width: "80px", opacity: 0.3 }}
             />
           </div>
         </div>
@@ -139,7 +154,45 @@ function Home() {
             <div className="col-2 d-none d-md-flex"></div>
           </div>
           <div className="row">
-            <h1>carousel here</h1>
+            <OwlCarousel
+              className="owl-theme owl-carousel"
+              loop
+              margin={15}
+              nav={false}
+              dots={false}
+              center={true}
+            >
+              <div class="item">
+                <img src="assets/images/carousel_placeholder.jpg" alt="" />
+              </div>
+              <div class="item">
+                <img src="assets/images/carousel_placeholder2.jpg" alt="" />
+              </div>
+              <div class="item">
+                <img src="assets/images/carousel_placeholder.jpg" alt="" />
+              </div>
+              <div class="item">
+                <img src="assets/images/carousel_placeholder2.jpg" alt="" />
+              </div>
+              <div class="item">
+                <img src="assets/images/carousel_placeholder.jpg" alt="" />
+              </div>
+              <div class="item">
+                <img src="assets/images/carousel_placeholder2.jpg" alt="" />
+              </div>
+              <div class="item">
+                <img src="assets/images/carousel_placeholder.jpg" alt="" />
+              </div>
+              <div class="item">
+                <img src="assets/images/carousel_placeholder2.jpg" alt="" />
+              </div>
+              <div class="item">
+                <img src="assets/images/carousel_placeholder.jpg" alt="" />
+              </div>
+              <div class="item">
+                <img src="assets/images/carousel_placeholder2.jpg" alt="" />
+              </div>
+            </OwlCarousel>
           </div>
         </div>
       </div>
@@ -652,26 +705,26 @@ function Home() {
           </div>
           <div className="row">
             <div className="col-12 row fs-5 my-3">
-              <div className="col-12 col-md-4 d-flex justify-content-md-end">
+              <div className="col-12 col-md-4 d-flex justify-content-md-end footerText">
                 Official Website:
               </div>
-              <div className="col-12 col-md-8 text-underline d-flex  justify-content-md-start ps-4">
+              <div className="col-12 col-md-8 text-underline d-flex  justify-content-md-start ps-4 footerText">
                 http://www.blockchainvisionlabs.com
               </div>
             </div>
             <div className="col-12 row fs-5 my-3">
-              <div className="col-12 col-md-4 d-flex justify-content-md-end">
+              <div className="col-12 col-md-4 d-flex justify-content-md-end footerText">
                 Email:
               </div>
-              <div className="col-12 col-md-8 text-underline d-flex  justify-content-md-start ps-4">
+              <div className="col-12 col-md-8 text-underline d-flex  justify-content-md-start ps-4 footerText">
                 info@blockchainvisionlabs.com
               </div>
             </div>
             <div className="col-12 row fs-5 my-3">
-              <div className="col-12 col-md-4 d-flex justify-content-md-end">
+              <div className="col-12 col-md-4 d-flex justify-content-md-end footerText">
                 Address:
               </div>
-              <div className="col-12 col-md-8 text-underline d-flex  justify-content-md-start ps-4">
+              <div className="col-12 col-md-8 text-underline d-flex  justify-content-md-start ps-4 footerText">
                 7th Floor, Jingpin, No. 68, Yuyuan Road, Jing'an District,
                 Shanghai
               </div>

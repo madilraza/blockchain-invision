@@ -23,3 +23,8 @@
 .toTopArrow:hover {
   background-color: #ff6637;
 }
+@media (max-width: 575px) {
+  .footerText {
+    font-size: 0.85em !important;
+  }
+}
