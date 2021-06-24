@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  color: #e5e5e5;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+}
+.deadStyleBtn {
+  background-color: inherit;
+  border: inherit;
+  color: inherit;
+  outline: inherit;
+}
+.text-orange {
+  color: #ff6637;
+}
+.text-orange2 {
+  color: #ff7f00;
+}

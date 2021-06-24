@@ -1,0 +1,16 @@
+.header a:hover {
+  color: #ff6637;
+}
+.header input[type="text"] {
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid white;
+  color: white;
+}
+.header .header__searchIcon {
+  filter: invert();
+}
+.mobileNav {
+  width: 100vw;
+  height: 60vh;
+}
