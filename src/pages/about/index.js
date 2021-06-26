@@ -40,7 +40,7 @@ function About() {
             </div>
             <div className="col-5 d-flex justify-content-center align-items-start">
               <img
-                src="assets/images/logo.png"
+                src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
                 alt=""
                 className="img-fluid pt-5"
                 width="300px"

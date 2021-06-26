@@ -11,7 +11,11 @@ function Home() {
       {/* topTopArrow */}
       <div className="toTopArrow position-fixed bottom-0 end-0">
         <a href="#top">
-          <img src="assets/images/arrowUp.png" alt="" className="img-fluid" />
+          <img
+            src={process.env.PUBLIC_URL + "/assets/images/arrowUp.png"}
+            alt=""
+            className="img-fluid"
+          />
         </a>
       </div>
 
@@ -31,7 +35,7 @@ function Home() {
             </div>
             <div className="col-6 d-flex justify-content-end">
               <img
-                src="assets/images/logo.png"
+                src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
                 className="img-fluid"
                 alt=""
                 style={{ width: "80px", opacity: 0.3 }}
@@ -69,7 +73,7 @@ function Home() {
             </div>
             <div className="col-5 d-none d-md-flex justify-content-center align-items-start">
               <img
-                src="assets/images/logo.png"
+                src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
                 alt=""
                 className="img-fluid pt-5"
                 width="300px"
@@ -124,7 +128,7 @@ function Home() {
             style={{ opacity: 0.3 }}
           >
             <img
-              src="assets/images/logo.png"
+              src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
               className="img-fluid"
               alt=""
               style={{ width: "80px", opacity: 0.3 }}
@@ -163,34 +167,94 @@ function Home() {
               center={true}
             >
               <div class="item">
-                <img src="assets/images/carousel_placeholder.jpg" alt="" />
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/carousel_placeholder.jpg"
+                  }
+                  alt=""
+                />
               </div>
               <div class="item">
-                <img src="assets/images/carousel_placeholder2.jpg" alt="" />
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/carousel_placeholder2.jpg"
+                  }
+                  alt=""
+                />
               </div>
               <div class="item">
-                <img src="assets/images/carousel_placeholder.jpg" alt="" />
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/carousel_placeholder.jpg"
+                  }
+                  alt=""
+                />
               </div>
               <div class="item">
-                <img src="assets/images/carousel_placeholder2.jpg" alt="" />
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/carousel_placeholder2.jpg"
+                  }
+                  alt=""
+                />
               </div>
               <div class="item">
-                <img src="assets/images/carousel_placeholder.jpg" alt="" />
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/carousel_placeholder.jpg"
+                  }
+                  alt=""
+                />
               </div>
               <div class="item">
-                <img src="assets/images/carousel_placeholder2.jpg" alt="" />
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/carousel_placeholder2.jpg"
+                  }
+                  alt=""
+                />
               </div>
               <div class="item">
-                <img src="assets/images/carousel_placeholder.jpg" alt="" />
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/carousel_placeholder.jpg"
+                  }
+                  alt=""
+                />
               </div>
               <div class="item">
-                <img src="assets/images/carousel_placeholder2.jpg" alt="" />
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/carousel_placeholder2.jpg"
+                  }
+                  alt=""
+                />
               </div>
               <div class="item">
-                <img src="assets/images/carousel_placeholder.jpg" alt="" />
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/carousel_placeholder.jpg"
+                  }
+                  alt=""
+                />
               </div>
               <div class="item">
-                <img src="assets/images/carousel_placeholder2.jpg" alt="" />
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/carousel_placeholder2.jpg"
+                  }
+                  alt=""
+                />
               </div>
             </OwlCarousel>
           </div>
@@ -236,7 +300,7 @@ function Home() {
             style={{ opacity: 0.3 }}
           >
             <img
-              src="assets/images/logo.png"
+              src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
               className="img-fluid"
               alt=""
               style={{ width: "80px" }}
@@ -262,7 +326,7 @@ function Home() {
             <div className="col-2 d-none d-md-flex"></div>
             <div className="col-12 col-md-5">
               <img
-                src="assets/images/meetup.png"
+                src={process.env.PUBLIC_URL + "/assets/images/meetup.png"}
                 alt=""
                 className="img-fluid"
                 width="100%"
@@ -280,7 +344,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -290,7 +354,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -300,7 +364,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -310,7 +374,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -320,61 +384,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
-                  alt=""
-                  width="100px"
-                  className="img-fluid"
-                />
-              </a>
-            </div>
-            <div className="col-1"></div>
-          </div>
-          <div className="row my-4">
-            <div className="col-1"></div>
-            <div className="col-2">
-              <a href="/">
-                <img
-                  src="assets/images/brand-temp.png"
-                  alt=""
-                  width="100px"
-                  className="img-fluid"
-                />
-              </a>
-            </div>
-            <div className="col-2">
-              <a href="/">
-                <img
-                  src="assets/images/brand-temp.png"
-                  alt=""
-                  width="100px"
-                  className="img-fluid"
-                />
-              </a>
-            </div>
-            <div className="col-2">
-              <a href="/">
-                <img
-                  src="assets/images/brand-temp.png"
-                  alt=""
-                  width="100px"
-                  className="img-fluid"
-                />
-              </a>
-            </div>
-            <div className="col-2">
-              <a href="/">
-                <img
-                  src="assets/images/brand-temp.png"
-                  alt=""
-                  width="100px"
-                  className="img-fluid"
-                />
-              </a>
-            </div>
-            <div className="col-2">
-              <a href="/">
-                <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -388,7 +398,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -398,7 +408,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -408,7 +418,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -418,7 +428,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -428,61 +438,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
-                  alt=""
-                  width="100px"
-                  className="img-fluid"
-                />
-              </a>
-            </div>
-            <div className="col-1"></div>
-          </div>
-          <div className="row my-4">
-            <div className="col-1"></div>
-            <div className="col-2">
-              <a href="/">
-                <img
-                  src="assets/images/brand-temp.png"
-                  alt=""
-                  width="100px"
-                  className="img-fluid"
-                />
-              </a>
-            </div>
-            <div className="col-2">
-              <a href="/">
-                <img
-                  src="assets/images/brand-temp.png"
-                  alt=""
-                  width="100px"
-                  className="img-fluid"
-                />
-              </a>
-            </div>
-            <div className="col-2">
-              <a href="/">
-                <img
-                  src="assets/images/brand-temp.png"
-                  alt=""
-                  width="100px"
-                  className="img-fluid"
-                />
-              </a>
-            </div>
-            <div className="col-2">
-              <a href="/">
-                <img
-                  src="assets/images/brand-temp.png"
-                  alt=""
-                  width="100px"
-                  className="img-fluid"
-                />
-              </a>
-            </div>
-            <div className="col-2">
-              <a href="/">
-                <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -496,7 +452,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -506,7 +462,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -516,7 +472,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -526,7 +482,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -536,7 +492,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -550,7 +506,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -560,7 +516,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -570,7 +526,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -580,7 +536,7 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -590,7 +546,115 @@ function Home() {
             <div className="col-2">
               <a href="/">
                 <img
-                  src="assets/images/brand-temp.png"
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
+                  alt=""
+                  width="100px"
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+            <div className="col-1"></div>
+          </div>
+          <div className="row my-4">
+            <div className="col-1"></div>
+            <div className="col-2">
+              <a href="/">
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
+                  alt=""
+                  width="100px"
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+            <div className="col-2">
+              <a href="/">
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
+                  alt=""
+                  width="100px"
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+            <div className="col-2">
+              <a href="/">
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
+                  alt=""
+                  width="100px"
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+            <div className="col-2">
+              <a href="/">
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
+                  alt=""
+                  width="100px"
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+            <div className="col-2">
+              <a href="/">
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
+                  alt=""
+                  width="100px"
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+            <div className="col-1"></div>
+          </div>
+          <div className="row my-4">
+            <div className="col-1"></div>
+            <div className="col-2">
+              <a href="/">
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
+                  alt=""
+                  width="100px"
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+            <div className="col-2">
+              <a href="/">
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
+                  alt=""
+                  width="100px"
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+            <div className="col-2">
+              <a href="/">
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
+                  alt=""
+                  width="100px"
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+            <div className="col-2">
+              <a href="/">
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
+                  alt=""
+                  width="100px"
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+            <div className="col-2">
+              <a href="/">
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/images/brand-temp.png"}
                   alt=""
                   width="100px"
                   className="img-fluid"
@@ -608,7 +672,7 @@ function Home() {
           >
             <img
               className="img-fluid"
-              src="assets/images/logo.png"
+              src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
               alt=""
               style={{ width: "80px" }}
             />
@@ -625,7 +689,7 @@ function Home() {
             <div className="col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
               <img
                 className="img-fluid"
-                src="assets/images/meetup.png"
+                src={process.env.PUBLIC_URL + "/assets/images/meetup.png"}
                 alt=""
                 width="200px"
               />
@@ -637,7 +701,7 @@ function Home() {
             <div className="col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
               <img
                 className="img-fluid"
-                src="assets/images/meetup.png"
+                src={process.env.PUBLIC_URL + "/assets/images/meetup.png"}
                 alt=""
                 width="200px"
               />
@@ -649,7 +713,7 @@ function Home() {
             <div className="col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
               <img
                 className="img-fluid"
-                src="assets/images/meetup.png"
+                src={process.env.PUBLIC_URL + "/assets/images/meetup.png"}
                 alt=""
                 width="200px"
               />
@@ -661,7 +725,7 @@ function Home() {
             <div className="col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
               <img
                 className="img-fluid"
-                src="assets/images/meetup.png"
+                src={process.env.PUBLIC_URL + "/assets/images/meetup.png"}
                 alt=""
                 width="200px"
               />
@@ -680,7 +744,7 @@ function Home() {
           >
             <img
               className="img-fluid"
-              src="assets/images/logo.png"
+              src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
               alt=""
               style={{ width: "80px" }}
             />
@@ -697,7 +761,7 @@ function Home() {
             <div className="col-3">
               <img
                 className="img-fluid"
-                src="assets/images/logo.png"
+                src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
                 alt=""
                 style={{ width: "120px" }}
               />

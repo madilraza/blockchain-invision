@@ -11,7 +11,7 @@ function Header() {
         <div className="row pt-md-5">
           <div className="col-9 col-md-3 d-flex justify-content-start justify-content-md-center align-items-start align-items-md-center">
             <img
-              src="assets/images/logo.png"
+              src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
               alt=""
               className="img-fluid pt-md-5"
               width="150px"
@@ -23,7 +23,7 @@ function Header() {
               onClick={() => setMobileNavOpen(!mobileNavOpen)}
             >
               <img
-                src="assets/images/list.svg"
+                src={process.env.PUBLIC_URL + "/assets/images/list.svg"}
                 alt=""
                 className="img-fluid pt-md-5"
                 width="45px"
@@ -43,7 +43,7 @@ function Header() {
                 onClick={() => setMobileNavOpen(!mobileNavOpen)}
               >
                 <img
-                  src="assets/images/list.svg"
+                  src={process.env.PUBLIC_URL + "/assets/images/list.svg"}
                   alt=""
                   className="img-fluid pt-md-5"
                   width="45px"
@@ -68,7 +68,7 @@ function Header() {
             <input type="text" placeholder="输入关键字搜索" className="px-2" />
             <button className="deadStyleBtn">
               <img
-                src="assets/images/search.svg"
+                src={process.env.PUBLIC_URL + "/assets/images/search.svg"}
                 alt=""
                 width="20px"
                 className="header__searchIcon"
