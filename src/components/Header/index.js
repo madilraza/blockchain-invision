@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 function Header() {
-  const [mobileNavOpen, setMobileNavOpen] = useState(true);
+  const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
   return (
     <div className="header">
