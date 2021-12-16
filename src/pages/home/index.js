@@ -46,7 +46,7 @@ function Home() {
             <div className="col-12 col-md-7">
               <br />
               <p>
-                Vision Labs is a leading investment advisor & marketing firm in
+                10pearls.pk is a leading investment advisor & marketing firm in
                 blockchain industry. Our main business includes:
               </p>
               <br />
@@ -314,7 +314,7 @@ function Home() {
           <div className="row">
             <div className="col-12 col-md-5">
               <p style={{ lineHeight: "35px" }}>
-                Vision Labs owns a meet-up execution team of almost 100 people,
+                10pearls.pk owns a meet-up execution team of almost 100 people,
                 standing out in the industry. The team has served Huobi.pro
                 ecological conference, brand press in Seoul Blockchain Summit,
                 Shanghai Blockchain Summit and many other big events and project
@@ -773,7 +773,7 @@ function Home() {
                 Official Website:
               </div>
               <div className="col-12 col-md-8 text-underline d-flex  justify-content-md-start ps-4 footerText">
-                http://www.blockchainvisionlabs.com
+                http://www.10pearls.pk
               </div>
             </div>
             <div className="col-12 row fs-5 my-3">
@@ -781,7 +781,7 @@ function Home() {
                 Email:
               </div>
               <div className="col-12 col-md-8 text-underline d-flex  justify-content-md-start ps-4 footerText">
-                info@blockchainvisionlabs.com
+                tempm5547@gmail.com
               </div>
             </div>
             <div className="col-12 row fs-5 my-3">
