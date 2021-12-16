@@ -13,7 +13,7 @@ function About() {
             <div className="col-7">
               <br />
               <p>
-                Vision Labs is a leading investment advisor & marketing firm in
+                10pearls.pk is a leading investment advisor & marketing firm in
                 blockchain industry. Our main business includes:
               </p>
               <br />
