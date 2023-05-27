@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2561497858750489"
+     crossorigin="anonymous"></script>
 
 function Header() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
